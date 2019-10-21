@@ -1,0 +1,18 @@
+[[source]]
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.org/simple"
+
+[packages]
+scipy = "*"
+numpy = "*"
+pandas = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-mock = "*"
+"flake8-config-yoctol" = ">=0.0.11"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.6"
