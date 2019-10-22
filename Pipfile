@@ -1,0 +1,29 @@
+[[source]]
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.org/simple"
+
+[packages]
+pyyaml = "*"
+numpy = "*"
+tables = "*"
+pandas = "*"
+progressbar33 = "*"
+scipy = "*"
+scikit-learn = "*"
+xgboost = "*"
+argcomplete = "*"
+openpyxl = "*"
+feagen = "==0.3.2"
+bistiming = "==0.1.1"
+lightgbm = "*"
+
+[dev-packages]
+ipdb = "*"
+pytest = "*"
+pytest-mock = "*"
+"flake8-config-yoctol" = ">=0.0.11"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.6"
